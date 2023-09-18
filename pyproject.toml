@@ -36,7 +36,8 @@ dependencies = [
     "brotli",
     "IPython==1.2.1; implementation_name=='pypy'",
     "IPython<7.17.0; implementation_name!='pypy' and python_version<='3.6'",
-    "IPython; implementation_name!='pypy' and python_version>'3.6'",
+    "IPython>=7; implementation_name!='pypy' and python_version>='3.6' and python_version<'3.8'",
+    "IPython>=8; implementation_name!='pypy' and python_version>='3.8'",
 ]
 
 dynamic = ["version"]
